@@ -1,5 +1,5 @@
 name: Resilient
-description: 'A Drupal distribtution, based on personal experiences.'
+description: 'A Drupal instal profile, based on personal experiences.'
 type: profile
 core: 8.x
 distribution:
