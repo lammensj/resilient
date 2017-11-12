@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_manager
+label: 'Content manager'
+description: ''
+conf:
+  extensions: ''
+  maxsize: !!float 4
+  quota: null
+  maxwidth: null
+  maxheight: null
+  replace: 0
+  folders:
+    -
+      path: uploads
+      permissions:
+        all: true

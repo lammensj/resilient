@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the Resilient installation profile.
+ */
+
+use Drupal\user\Entity\User;
+
+/**
+ * Implements hook_install().
+ */
+function resilient_install() {
+  // Assign user 1 the "administrator" role.
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+}

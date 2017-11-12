@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: content_manager
+label: 'Content manager'
+weight: -8
+is_admin: false
+permissions: {  }

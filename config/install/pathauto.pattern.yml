@@ -1,0 +1,13 @@
+patterns:
+  node:
+    default: '/[node:menu-link:parents:join-path]/[node:title]'
+    bundles:
+      page:
+        default: ''
+  taxonomy_term:
+    default: '/[term:vocabulary]/[term:name]'
+    bundles:
+      taxonomy_term:
+        default: ''
+  user:
+    default: '/users/[user:name]'
