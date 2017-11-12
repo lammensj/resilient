@@ -1,0 +1,50 @@
+name: Resilient
+description: 'A Drupal distribtution, based on personal experiences.'
+type: profile
+core: 8.x
+distribution:
+  name: Resilient
+
+# Required modules
+dependencies:
+  # core
+  - block_content
+  - big_pipe
+  - ckeditor
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_reference
+  - field_ui
+  - help
+  - image
+  - imce
+  - menu_link_content
+  - page_cache
+  - syslog
+  - views_ui
+  # contrib
+  - admin_toolbar_tools
+  - adminimal_admin_toolbar
+  - block_field
+  - config_update_ui
+  - contact_storage
+  - field_group
+  - honeypot
+  - imce
+  - linkit
+  - menu_admin_per_menu
+  - metatag
+  - override_node_options
+  - paragraphs
+  - pathauto
+  - redirect
+  - simple_sitemap
+  - system_tags
+  - swiftmailer_force_html
+  - taxonomy_access_fix
+
+themes:
+  - adminimal_theme
