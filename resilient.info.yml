@@ -36,7 +36,7 @@ dependencies:
   - imce
   - linkit
   - menu_admin_per_menu
-  - metatag
+  - metatag_open_graph
   - override_node_options
   - paragraphs
   - pathauto

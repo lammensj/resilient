@@ -10,7 +10,7 @@ id: node.page.field_page_paragraph
 field_name: field_page_paragraph
 entity_type: node
 bundle: page
-label: Paragraaf
+label: Paragraph
 description: ''
 required: false
 translatable: false
