@@ -3,12 +3,62 @@ status: true
 dependencies:
   config:
     - field.field.node.page.field_metatags
-    - field.field.node.page.field_page_paragraph
+    - field.field.node.page.field_page_description
+    - field.field.node.page.field_page_paragraphs
+    - field.field.node.page.field_page_system_tag
     - node.type.page
   module:
+    - field_group
     - metatag
     - paragraphs
     - path
+    - text
+third_party_settings:
+  field_group:
+    group_page_tabs:
+      children:
+        - group_page_general
+        - group_page_paragraphs
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_page_general:
+      children:
+        - title
+        - field_page_description
+        - field_page_system_tag
+        - uid
+        - created
+        - path
+        - field_metatags
+      parent_name: group_page_tabs
+      weight: 9
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: General
+    group_page_paragraphs:
+      children:
+        - field_page_paragraphs
+      parent_name: group_page_tabs
+      weight: 10
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Paragraphs
 id: node.page.default
 targetEntityType: node
 bundle: page
@@ -16,59 +66,72 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 3
+    weight: 5
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_metatags:
-    weight: 8
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     type: metatag_firehose
-  field_page_paragraph:
+    region: content
+  field_page_description:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_page_paragraphs:
     type: entity_reference_paragraphs
-    weight: 7
+    weight: 2
     settings:
       title: Paragraph
       title_plural: Paragraphs
       edit_mode: open
       add_mode: dropdown
       form_display_mode: default
+      default_paragraph_type: ''
     third_party_settings: {  }
-  langcode:
-    type: language_select
-    weight: 1
+    region: content
+  field_page_system_tag:
+    weight: 3
     settings: {  }
     third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 6
     settings: {  }
     third_party_settings: {  }
-  promote:
+    region: content
+  status:
     type: boolean_checkbox
     settings:
       display_label: true
     weight: 4
-    third_party_settings: {  }
-  sticky:
-    type: boolean_checkbox
-    settings:
-      display_label: true
-    weight: 5
+    region: content
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: 0
+    weight: 1
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 2
+    weight: 4
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+    region: content
+hidden:
+  promote: true
+  sticky: true

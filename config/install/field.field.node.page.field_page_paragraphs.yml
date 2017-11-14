@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_page_paragraph
+    - field.storage.node.field_page_paragraphs
     - node.type.page
   module:
     - entity_reference_revisions
-id: node.page.field_page_paragraph
-field_name: field_page_paragraph
+id: node.page.field_page_paragraphs
+field_name: field_page_paragraphs
 entity_type: node
 bundle: page
-label: Paragraph
+label: Paragraphs
 description: ''
 required: false
 translatable: false
@@ -23,9 +23,9 @@ settings:
     target_bundles: null
     target_bundles_drag_drop:
       image:
-        weight: 0
+        weight: 3
         enabled: false
       text:
-        weight: 1
+        weight: 4
         enabled: false
 field_type: entity_reference_revisions
