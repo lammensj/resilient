@@ -75,14 +75,6 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
-        },
-        "patches": {
-            "drupal/core": {
-                "Profile provided configuration entities can have unmeetable dependencies": "https://www.drupal.org/files/issues/2922417-2.patch"
-            },
-            "drupal/bootstrap_paragraphs": {
-                "Block-module as dependency": "https://www.drupal.org/files/issues/bootstrap_paragraphs-unmet_dependency_block.patch"
-            }
         }
     }
 }
