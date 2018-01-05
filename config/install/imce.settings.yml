@@ -1,6 +1,5 @@
 abs_urls: false
 roles_profiles:
-  administrator:
-    public: admin
-  content_manager:
+  authenticated:
     public: content_manager
+admin_theme: false

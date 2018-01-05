@@ -4,13 +4,17 @@ dependencies:
   config:
     - field.field.node.page.field_metatags
     - field.field.node.page.field_page_description
+    - field.field.node.page.field_page_og_image
     - field.field.node.page.field_page_paragraphs
     - field.field.node.page.field_page_system_tag
+    - image.style.thumbnail
     - node.type.page
   module:
     - field_group
+    - image
+    - imce
     - metatag
-    - paragraphs
+    - paragraphs_browser
     - path
     - text
 third_party_settings:
@@ -30,12 +34,10 @@ third_party_settings:
     group_page_general:
       children:
         - title
+        - langcode
+        - field_page_og_image
         - field_page_description
         - field_page_system_tag
-        - uid
-        - created
-        - path
-        - field_metatags
       parent_name: group_page_tabs
       weight: 9
       format_type: tab
@@ -66,45 +68,65 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 5
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     region: content
   field_metatags:
-    weight: 7
+    weight: 4
     settings: {  }
     third_party_settings: {  }
     type: metatag_firehose
     region: content
   field_page_description:
-    weight: 2
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
     region: content
+  field_page_og_image:
+    weight: 3
+    settings:
+      preview_image_style: thumbnail
+      progress_indicator: throbber
+    third_party_settings:
+      imce:
+        enabled: true
+    type: image_image
+    region: content
   field_page_paragraphs:
-    type: entity_reference_paragraphs
+    type: entity_reference_paragraphs_browser
     weight: 2
     settings:
       title: Paragraph
       title_plural: Paragraphs
       edit_mode: open
-      add_mode: dropdown
+      add_mode: paragraphs_browser
       form_display_mode: default
-      default_paragraph_type: ''
+      default_paragraph_type: _none
+      paragraphs_browser: content
+      modal_width: 80%
+      modal_height: auto
     third_party_settings: {  }
     region: content
   field_page_system_tag:
-    weight: 3
+    weight: 5
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   path:
     type: path
-    weight: 6
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -112,7 +134,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 4
+    weight: 6
     region: content
     third_party_settings: {  }
   title:
@@ -123,15 +145,25 @@ content:
       placeholder: ''
     third_party_settings: {  }
     region: content
+  translation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 4
+    weight: 1
     settings:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
     third_party_settings: {  }
     region: content
+  url_redirects:
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   promote: true
   sticky: true

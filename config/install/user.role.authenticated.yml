@@ -7,6 +7,6 @@ weight: -9
 is_admin: false
 permissions:
   - 'access content'
-  - 'use text format basic_html'
   - 'access shortcuts'
   - 'search content'
+  - 'use text format basic_html'

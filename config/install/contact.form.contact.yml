@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: contact
-label: Contact
-recipients:
-  - no-reply@example.com
-reply: ''
-weight: 0

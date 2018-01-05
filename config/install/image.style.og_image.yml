@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: og_image
+label: 'OG Image'
+effects:
+  2deca31a-d8e9-4407-9b3f-3b26280b3b73:
+    uuid: 2deca31a-d8e9-4407-9b3f-3b26280b3b73
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 630

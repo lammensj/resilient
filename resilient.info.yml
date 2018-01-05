@@ -1,5 +1,5 @@
 name: Resilient
-description: 'A Drupal instal profile, based on personal experiences.'
+description: 'A Drupal install profile, based on personal experiences.'
 type: profile
 core: 8.x
 distribution:
@@ -8,39 +8,42 @@ distribution:
 # Required modules
 dependencies:
   # core
-  - block_content
   - big_pipe
   - ckeditor
   - contextual
   - datetime
   - dblog
   - dynamic_page_cache
-  - editor
-  - entity_reference
   - field_ui
   - help
-  - image
-  - imce
   - menu_link_content
   - page_cache
   - syslog
   - views_ui
   # contrib
+  - admin_toolbar_links_access_filter
   - admin_toolbar_tools
   - adminimal_admin_toolbar
   - block_field
+  - bootstrap_paragraphs
+  - config_translation
+  - config_split
   - config_update_ui
   - contact_storage
+  - content_translation
   - field_group
+  - gtm
   - honeypot
   - imce
   - linkit
+  - login_destination
   - menu_admin_per_menu
   - metatag_open_graph
   - override_node_options
-  - paragraphs
   - pathauto
-  - redirect
+  - pathologic
+  - paragraphs_browser
+  - redirect_404
   - simple_sitemap
   - system_tags
   - swiftmailer_force_html

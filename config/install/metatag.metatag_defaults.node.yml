@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: node
+label: Content
+tags:
+  content_language: '[node:langcode]'

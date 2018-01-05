@@ -13,7 +13,7 @@ bundle: page
 label: Description
 description: 'Provide a description for this page. It will be used as the metatag description.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

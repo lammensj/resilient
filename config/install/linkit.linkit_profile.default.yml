@@ -11,7 +11,17 @@ third_party_settings:
 id: default
 label: Default
 description: ''
-attributes: {  }
+attributes:
+  target:
+    id: target
+    weight: 0
+    settings:
+      widget_type: select_list
+  title:
+    id: title
+    weight: 0
+    settings:
+      automatic_title: true
 matchers:
   acf8395b-3c03-4e35-8d01-1abca1973a1c:
     uuid: acf8395b-3c03-4e35-8d01-1abca1973a1c
@@ -20,5 +30,5 @@ matchers:
     settings:
       result_description: ''
       bundles: {  }
-      group_by_bundle: false
+      group_by_bundle: true
       include_unpublished: true

@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.block.bp_width
+    - field.field.paragraph.block.field_pg_block_block
+    - paragraphs.paragraphs_type.block
+  module:
+    - block_field
+    - options
+id: paragraph.block.default
+targetEntityType: paragraph
+bundle: block
+mode: default
+content:
+  bp_width:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_key
+    region: content
+  field_pg_block_block:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: block_field
+    region: content
+hidden: {  }

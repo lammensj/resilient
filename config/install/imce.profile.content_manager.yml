@@ -3,10 +3,10 @@ status: true
 dependencies: {  }
 id: content_manager
 label: 'Content manager'
-description: ''
+description: 'Configuration for content managers'
 conf:
-  extensions: ''
-  maxsize: !!float 4
+  extensions: 'jpg png gif pdf'
+  maxsize: null
   quota: null
   maxwidth: null
   maxheight: null

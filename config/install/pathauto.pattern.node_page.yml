@@ -8,13 +8,14 @@ label: 'Node: page'
 type: 'canonical_entities:node'
 pattern: '/[node:menu-link:parents:join-path]/[node:title]'
 selection_criteria:
-  bb7cafdb-7872-4bb3-8cee-95cc3d2ad613:
+  2bca4d9e-4257-4873-9867-2b7453389513:
     id: node_type
     bundles:
       page: page
     negate: false
     context_mapping:
       node: node
+    uuid: 2bca4d9e-4257-4873-9867-2b7453389513
 selection_logic: and
 weight: -5
 relationships: {  }
