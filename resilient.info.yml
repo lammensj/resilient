@@ -32,11 +32,10 @@ dependencies:
   - contact_storage
   - content_translation
   - field_group
-  - gtm
+  - google_tag
   - honeypot
   - imce
   - linkit
-  - login_destination
   - menu_admin_per_menu
   - metatag_open_graph
   - override_node_options
