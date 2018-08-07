@@ -32,6 +32,7 @@ dependencies:
   - config_update_ui
   - contact_storage
   - field_group
+  - gtm
   - honeypot
   - imce
   - linkit
