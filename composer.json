@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6.5",
         "drupal/admin_toolbar": "^1.25",
         "drupal/adminimal_admin_toolbar": "^1.8",
@@ -55,7 +56,8 @@
     },
     "require-dev": {
         "drupal/devel": "^1.2",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "webflo/drupal-core-require-dev": "^8.6.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -65,8 +67,21 @@
     "config": {
         "sort-packages": true
     },
-    "extra":{
+    "extra": {
         "enable-patching": true,
-        "patches-file": "composer.patches.json"
+        "patches-file": "app/profiles/contrib/resilient/composer.patches.json",
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "installer-paths": {
+            "app/core": ["type:drupal-core"],
+            "app/libraries/{$name}": ["type:drupal-library"],
+            "app/modules/contrib/{$name}": ["type:drupal-module"],
+            "app/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "app/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+        "drupal-app-dir": "app",
+        "drupal-web-dir": "web"
     }
 }
