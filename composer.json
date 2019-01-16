@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "cweagans/composer-patches": "^1.6.5",
         "drupal/admin_toolbar": "^1.25",
         "drupal/adminimal_admin_toolbar": "^1.8",
         "drupal/adminimal_theme": "1.x-dev",
@@ -63,5 +64,9 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true
+    },
+    "extra":{
+        "enable-patching": true,
+        "patches-file": "composer.patches.json"
     }
 }
