@@ -8,6 +8,7 @@ distribution:
 # Required modules
 dependencies:
   # core
+  - block
   - ckeditor
   - config_translation
   - contextual
