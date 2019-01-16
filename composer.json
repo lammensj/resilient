@@ -68,10 +68,10 @@
         "sort-packages": true
     },
     "extra": {
-        "enable-patching": true,
-        "patches-file": "app/profiles/contrib/resilient/composer.patches.json",
-        "patchLevel": {
-            "drupal/core": "-p2"
+        "patches": {
+            "drupal/adminimal_theme": {
+                "Block configuration should be optional": "https://www.drupal.org/files/issues/2018-04-06/2959102-2.patch"
+            }
         },
         "installer-paths": {
             "app/core": ["type:drupal-core"],
