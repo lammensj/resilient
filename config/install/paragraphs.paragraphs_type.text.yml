@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    description: 'The main body of a page or other piece of writing, as distinct from other material such as titles and illustrations.'
+    image_path: profiles/contrib/resilient/assets/icons/baseline-notes-24px.svg
+id: text
+label: Text
+icon_uuid: null
+description: 'The main body of a page or other piece of writing, as distinct from other material such as titles and illustrations.'
+behavior_plugins: {  }

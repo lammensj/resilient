@@ -1,0 +1,7 @@
+{
+  "patches": {
+    "drupal/adminimal_theme": {
+      "Block configuration should be optional": "https://www.drupal.org/files/issues/2018-04-06/2959102-2.patch"
+    }
+  }
+}

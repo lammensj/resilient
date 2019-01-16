@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.content_component
+name: 'Hero banner'
+type: hero_banner
+description: 'A hero image is a large web banner image, prominently placed on a web page, generally in the front and center. The hero image is often the first visual element a visitor encounters on the site; it presents an overview of the site''s most important content. A hero image often consists of image and text.'

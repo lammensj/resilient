@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - system_tags
+  theme:
+    - stark
+id: stark_messages
+theme: stark
+region: highlighted
+weight: -1
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility:
+  system_tags:
+    id: system_tags
+    system_tags:
+      access_denied: 0
+      homepage: 0
+      page_not_found: 0
+    negate: false
+    context_mapping: {  }

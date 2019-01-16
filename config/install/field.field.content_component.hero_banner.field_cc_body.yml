@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.hero_banner
+    - field.storage.content_component.field_cc_body
+  module:
+    - text
+id: content_component.hero_banner.field_cc_body
+field_name: field_cc_body
+entity_type: content_component
+bundle: hero_banner
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

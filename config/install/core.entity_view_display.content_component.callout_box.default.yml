@@ -1,0 +1,58 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.callout_box
+    - field.field.content_component.callout_box.field_cc_body
+    - field.field.content_component.callout_box.field_cc_cb_background_color
+    - field.field.content_component.callout_box.field_cc_cb_cta
+    - field.field.content_component.callout_box.field_cc_heading
+  module:
+    - entity_class_formatter
+    - link
+    - text
+id: content_component.callout_box.default
+targetEntityType: content_component
+bundle: callout_box
+mode: default
+content:
+  field_cc_body:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cc_cb_background_color:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: entity_class_formatter
+    region: content
+  field_cc_cb_cta:
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_cc_heading:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  changed: true
+  created: true
+  langcode: true
+  title: true
+  uid: true

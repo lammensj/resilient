@@ -1,8 +1,14 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    description: 'A predefined building block. Most likely provided by a custom module.'
+    image_path: profiles/contrib/resilient/assets/icons/baseline-unarchive-24px.svg
 id: block
 label: Block
 icon_uuid: null
-description: ''
+description: 'A predefined building block. Most likely provided by a custom module.'
 behavior_plugins: {  }

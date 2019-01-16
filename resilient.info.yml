@@ -8,45 +8,58 @@ distribution:
 # Required modules
 dependencies:
   # core
-  - big_pipe
   - ckeditor
   - config_translation
-  - content_translation
   - contextual
   - datetime
   - dblog
   - dynamic_page_cache
   - field_ui
   - help
-  - menu_link_content
-  - page_cache
   - syslog
   - views_ui
   # contrib
   - admin_toolbar_links_access_filter
   - admin_toolbar_tools
   - adminimal_admin_toolbar
+  - big_pipe_sessionless
   - block_field
-  - bootstrap_paragraphs
+  - bootstrap_library
+  - cache_control_override
+  - clean_maintenance
   - config_split
   - config_update_ui
   - contact_storage
+  - eck
+  - entity_class_formatter
   - field_group
-  - gtm
+  - google_tag
+  - hide_revision_field
   - honeypot
   - imce
+  - inline_entity_form
   - linkit
   - menu_admin_per_menu
+  - menu_block
+  - menu_multilingual
+  - metatag_facebook
   - metatag_open_graph
+  - metatag_twitter_cards
   - override_node_options
+  - paragraphs_browser
+  - paragraphs_edit
   - pathauto
   - pathologic
-  - paragraphs
-  - paragraphs_browser
+  - r4032login
   - redirect_404
+  - schema_image_object
+  - schema_item_list
+  - schema_web_page
+  - schema_web_site
   - simple_sitemap
-  - system_tags
+  - svg_image
   - swiftmailer_force_html
+  - system_tags
   - taxonomy_access_fix
 
 themes:

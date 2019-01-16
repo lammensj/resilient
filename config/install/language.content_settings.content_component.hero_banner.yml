@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.hero_banner
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: content_component.hero_banner
+target_entity_type_id: content_component
+target_bundle: hero_banner
+default_langcode: current_interface
+language_alterable: true

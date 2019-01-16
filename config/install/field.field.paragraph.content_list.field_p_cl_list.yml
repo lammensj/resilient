@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_p_cl_list
+    - paragraphs.paragraphs_type.content_list
+  module:
+    - block_field
+id: paragraph.content_list.field_p_cl_list
+field_name: field_p_cl_list
+entity_type: paragraph
+bundle: content_list
+label: List
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    system_powered_by_block: system_powered_by_block
+field_type: block_field

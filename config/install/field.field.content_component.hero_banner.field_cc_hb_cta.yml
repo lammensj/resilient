@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.hero_banner
+    - field.storage.content_component.field_cc_hb_cta
+  module:
+    - link
+id: content_component.hero_banner.field_cc_hb_cta
+field_name: field_cc_hb_cta
+entity_type: content_component
+bundle: hero_banner
+label: CTA
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.content_component
+name: 'Callout box'
+type: callout_box
+description: 'An element which tries to grab the attention of the user. It uses a background color and a button to guide the user to a specific page.'

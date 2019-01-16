@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.hero_banner
+id: content_component.hero_banner.changed
+field_name: changed
+entity_type: content_component
+bundle: hero_banner
+label: Changed
+description: 'The time that the entity was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

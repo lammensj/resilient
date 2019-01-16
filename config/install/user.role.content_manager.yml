@@ -3,6 +3,6 @@ status: true
 dependencies: {  }
 id: content_manager
 label: 'Content manager'
-weight: -8
+weight: -7
 is_admin: false
 permissions: {  }

@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: twitter_card_300x157
+label: 'Twitter card 300x157'
+effects:
+  aef50b49-2837-46d8-aff2-059121f70a52:
+    uuid: aef50b49-2837-46d8-aff2-059121f70a52
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 157
+      anchor: center-center

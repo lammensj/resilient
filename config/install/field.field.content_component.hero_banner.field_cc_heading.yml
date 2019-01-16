@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.hero_banner
+    - field.storage.content_component.field_cc_heading
+  module: {  }
+id: content_component.hero_banner.field_cc_heading
+field_name: field_cc_heading
+entity_type: content_component
+bundle: hero_banner
+label: Heading
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

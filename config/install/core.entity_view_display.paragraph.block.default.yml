@@ -2,29 +2,29 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.block.bp_width
-    - field.field.paragraph.block.field_pg_block_block
+    - field.field.paragraph.block.field_p_block_block
+    - field.field.paragraph.block.field_p_width
     - paragraphs.paragraphs_type.block
   module:
     - block_field
-    - options
+    - entity_class_formatter
 id: paragraph.block.default
 targetEntityType: paragraph
 bundle: block
 mode: default
 content:
-  bp_width:
+  field_p_block_block:
     weight: 0
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: list_key
+    type: block_field
     region: content
-  field_pg_block_block:
+  field_p_width:
     weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: block_field
+    type: entity_class_formatter
     region: content
 hidden: {  }

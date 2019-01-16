@@ -5,3 +5,4 @@ id: node
 label: Content
 tags:
   content_language: '[node:langcode]'
+  og_updated_time: '[node:changed:html_datetime]'

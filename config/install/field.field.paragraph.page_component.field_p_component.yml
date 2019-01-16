@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.content_component.callout_box
+    - eck.eck_type.content_component.hero_banner
+    - field.storage.paragraph.field_p_component
+    - paragraphs.paragraphs_type.page_component
+  module: {  }
+id: paragraph.page_component.field_p_component
+field_name: field_p_component
+entity_type: paragraph
+bundle: page_component
+label: Component
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:content_component'
+  handler_settings:
+    target_bundles:
+      callout_box: callout_box
+      hero_banner: hero_banner
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: callout_box
+field_type: entity_reference

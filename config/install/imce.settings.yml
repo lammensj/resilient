@@ -2,4 +2,4 @@ abs_urls: false
 roles_profiles:
   authenticated:
     public: content_manager
-admin_theme: false
+admin_theme: true

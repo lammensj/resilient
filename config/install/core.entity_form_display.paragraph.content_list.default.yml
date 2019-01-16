@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.content_list.field_p_cl_list
+    - field.field.paragraph.content_list.field_p_width
+    - paragraphs.paragraphs_type.content_list
+  module:
+    - block_field
+id: paragraph.content_list.default
+targetEntityType: paragraph
+bundle: content_list
+mode: default
+content:
+  field_p_cl_list:
+    weight: 0
+    settings:
+      configuration_form: full
+      plugin_id: ''
+      settings: {  }
+    third_party_settings: {  }
+    type: block_field_default
+    region: content
+  field_p_width:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

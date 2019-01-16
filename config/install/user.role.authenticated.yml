@@ -10,3 +10,4 @@ permissions:
   - 'access shortcuts'
   - 'search content'
   - 'use text format basic_html'
+  - 'view any content_component entities'

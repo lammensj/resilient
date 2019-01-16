@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - system_tags
+    - user
+  theme:
+    - stark
+id: stark_tabs
+theme: stark
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility:
+  system_tags:
+    id: system_tags
+    system_tags:
+      access_denied: 0
+      homepage: 0
+      page_not_found: 0
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      content_manager: content_manager
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
