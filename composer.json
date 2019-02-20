@@ -14,7 +14,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal/admin_toolbar": "^1.25",
         "drupal/adminimal_admin_toolbar": "^1.8",
-        "drupal/adminimal_theme": "1.x-dev",
+        "drupal/adminimal_theme": "^1.4",
         "drupal/big_pipe_sessionless": "^1.2",
         "drupal/block_field": "^1.0@alpha",
         "drupal/bootstrap_library": "^1.11",
@@ -68,11 +68,6 @@
         "sort-packages": true
     },
     "extra": {
-        "patches": {
-            "drupal/adminimal_theme": {
-                "Block configuration should be optional": "https://www.drupal.org/files/issues/2018-04-06/2959102-2.patch"
-            }
-        },
         "installer-paths": {
             "app/core": ["type:drupal-core"],
             "app/libraries/{$name}": ["type:drupal-library"],
