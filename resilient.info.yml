@@ -28,6 +28,7 @@ dependencies:
   - bootstrap_library
   - cache_control_override
   - clean_maintenance
+  - config_readonly
   - config_split
   - config_update_ui
   - contact_storage
