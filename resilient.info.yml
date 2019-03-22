@@ -17,6 +17,7 @@ dependencies:
   - dynamic_page_cache
   - field_ui
   - help
+  - options
   - syslog
   - views_ui
   # contrib
@@ -31,7 +32,6 @@ dependencies:
   - config_readonly
   - config_split
   - config_update_ui
-  - contact_storage
   - eck
   - entity_class_formatter
   - field_group
@@ -63,6 +63,8 @@ dependencies:
   - swiftmailer_force_html
   - system_tags
   - taxonomy_access_fix
+  - webform_submission_log
+  - webform_ui
 
 themes:
   - adminimal_theme
