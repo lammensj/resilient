@@ -10,3 +10,7 @@ excluded_languages: {  }
 enabled_entity_types:
   - node
   - menu_link_content
+langcode: en
+xsl: true
+default_variant: default
+generate_duration: 10000

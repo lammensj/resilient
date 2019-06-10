@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: media
+label: Media
+icon_uuid: null
+description: 'A Media paragraph can consist of an image, a file, an external video or a combination of those.'
+behavior_plugins: {  }

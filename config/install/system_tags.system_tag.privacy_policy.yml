@@ -1,0 +1,5 @@
+langcode: en
+status: true
+dependencies: {  }
+id: privacy_policy
+label: 'Privacy Policy'

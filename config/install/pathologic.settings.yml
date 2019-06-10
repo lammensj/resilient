@@ -5,3 +5,4 @@ scheme_whitelist:
   - internal
 protocol_style: full
 local_paths: ''
+langcode: en

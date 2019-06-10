@@ -7,3 +7,4 @@ entity_type_groups:
       twitter_cards: twitter_cards
       schema_item_list: schema_item_list
       schema_web_page: schema_web_page
+langcode: en

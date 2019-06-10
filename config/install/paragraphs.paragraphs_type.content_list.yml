@@ -1,12 +1,7 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_browser
-third_party_settings:
-  paragraphs_browser:
-    description: 'A predefined overview which shows content in a list.'
-    image_path: profiles/contrib/resilient/assets/icons/baseline-list-24px.svg
+dependencies: {  }
+third_party_settings: {  }
 id: content_list
 label: 'Content list'
 icon_uuid: null

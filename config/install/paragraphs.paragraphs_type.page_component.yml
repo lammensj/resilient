@@ -1,12 +1,7 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_browser
-third_party_settings:
-  paragraphs_browser:
-    description: 'A component represents a single asset (a hero banner, a callout box etc.).'
-    image_path: profiles/contrib/resilient/assets/icons/baseline-dashboard-24px.svg
+dependencies: {  }
+third_party_settings: {  }
 id: page_component
 label: 'Page Component'
 icon_uuid: null

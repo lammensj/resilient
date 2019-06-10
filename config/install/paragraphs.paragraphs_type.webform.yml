@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: webform
+label: Webform
+icon_uuid: null
+description: 'A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing.'
+behavior_plugins: {  }

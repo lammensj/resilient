@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_resmushit
+name: image_optimize
+label: 'Image Optimize'
+processors:
+  c5fefb77-8c21-4fd4-a8f5-b472bf73f1c9:
+    uuid: c5fefb77-8c21-4fd4-a8f5-b472bf73f1c9
+    id: resmushit
+    weight: 1
+    data:
+      quality: 95

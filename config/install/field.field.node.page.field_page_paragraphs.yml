@@ -7,9 +7,10 @@ dependencies:
     - paragraphs.paragraphs_type.block
     - paragraphs.paragraphs_type.content_list
     - paragraphs.paragraphs_type.heading
-    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.media
     - paragraphs.paragraphs_type.page_component
     - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.webform
   module:
     - entity_reference_revisions
 id: node.page.field_page_paragraphs
@@ -18,7 +19,7 @@ entity_type: node
 bundle: page
 label: Paragraphs
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -27,29 +28,36 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      heading: heading
-      image: image
       text: text
+      media: media
       block: block
       content_list: content_list
+      heading: heading
       page_component: page_component
+      webform: webform
     target_bundles_drag_drop:
+      text:
+        enabled: true
+        weight: -17
+      media:
+        enabled: true
+        weight: -16
+      block:
+        enabled: true
+        weight: -15
+      content_list:
+        enabled: true
+        weight: -14
       heading:
         enabled: true
         weight: -13
-      image:
-        enabled: true
-        weight: -12
-      text:
-        enabled: true
-        weight: -11
-      block:
-        enabled: true
-        weight: -10
-      content_list:
-        enabled: true
-        weight: -9
       page_component:
         enabled: true
-        weight: -8
+        weight: -12
+      section:
+        weight: -11
+        enabled: false
+      webform:
+        enabled: true
+        weight: -10
 field_type: entity_reference_revisions

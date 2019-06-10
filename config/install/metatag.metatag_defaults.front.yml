@@ -16,10 +16,10 @@ tags:
   og_updated_time: '[node:changed:html_datetime]'
   og_description: '[node:field_page_description]'
   og_image_type: '[node:field_page_og_image:og_image:mimetype]'
-  twitter_cards_image: '[node:field_page_og_image:twitter_card_300x157:url]'
-  twitter_cards_image_width: '[node:field_page_og_image:twitter_card_300x157:width]'
+  twitter_cards_image: '[node:field_page_og_image:twitter_card:url]'
+  twitter_cards_image_width: '[node:field_page_og_image:twitter_card:width]'
   twitter_cards_description: '[node:field_page_description]'
   twitter_cards_image_alt: '[node:field_page_og_image:alt]'
   twitter_cards_type: summary_large_image
-  twitter_cards_image_height: '[node:field_page_og_image:twitter_card_300x157:height]'
+  twitter_cards_image_height: '[node:field_page_og_image:twitter_card:height]'
   schema_web_page_description: '[node:field_page_description]'

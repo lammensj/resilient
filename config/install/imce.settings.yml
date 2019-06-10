@@ -3,3 +3,4 @@ roles_profiles:
   authenticated:
     public: content_manager
 admin_theme: true
+langcode: en

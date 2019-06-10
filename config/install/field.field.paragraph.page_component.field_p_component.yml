@@ -6,7 +6,6 @@ dependencies:
     - eck.eck_type.content_component.hero_banner
     - field.storage.paragraph.field_p_component
     - paragraphs.paragraphs_type.page_component
-  module: {  }
 id: paragraph.page_component.field_p_component
 field_name: field_p_component
 entity_type: paragraph

@@ -4,7 +4,6 @@ dependencies:
   config:
     - field.field.paragraph.heading.field_p_heading_text
     - field.field.paragraph.heading.field_p_heading_type
-    - field.field.paragraph.heading.field_p_width
     - paragraphs.paragraphs_type.heading
 id: paragraph.heading.default
 targetEntityType: paragraph
@@ -21,12 +20,6 @@ content:
     region: content
   field_p_heading_type:
     weight: 0
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-    region: content
-  field_p_width:
-    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select

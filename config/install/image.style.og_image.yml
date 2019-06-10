@@ -1,14 +1,35 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - image_effects
 name: og_image
-label: 'OG Image'
+label: 'OG Image (1200x630)'
 effects:
   2deca31a-d8e9-4407-9b3f-3b26280b3b73:
     uuid: 2deca31a-d8e9-4407-9b3f-3b26280b3b73
     id: image_scale_and_crop
-    weight: 1
+    weight: -9
     data:
       width: 1200
       height: 630
       anchor: center-center
+  604be002-7b3e-483a-b8a7-60c428e155e3:
+    uuid: 604be002-7b3e-483a-b8a7-60c428e155e3
+    id: image_effects_set_canvas
+    weight: -10
+    data:
+      canvas_size: exact
+      exact:
+        width: '1200'
+        height: '630'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''
+pipeline: image_optimize

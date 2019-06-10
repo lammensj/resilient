@@ -21,6 +21,7 @@ dependencies:
   - syslog
   - views_ui
   # contrib
+  - allowed_formats
   - admin_toolbar_links_access_filter
   - admin_toolbar_tools
   - adminimal_admin_toolbar
@@ -32,37 +33,51 @@ dependencies:
   - config_readonly
   - config_split
   - config_update_ui
+  - csp
+  - easy_email
   - eck
-  - entity_class_formatter
+  - email_registration
+  - environment_indicator
+  - eu_cookie_compliance
   - field_group
+  - gdpr
   - google_tag
   - hide_revision_field
   - honeypot
+  - image_effects
+  - imageapi_optimize_resmushit
   - imce
   - inline_entity_form
   - linkit
+  - login_destination
+  - media_entity_browser
   - menu_admin_per_menu
   - menu_block
+  - menu_link_attributes
   - menu_multilingual
   - metatag_facebook
   - metatag_open_graph
   - metatag_twitter_cards
   - override_node_options
-  - paragraphs_browser
-  - paragraphs_edit
+  - paragraphs_admin
+  - paragraphs_ee
+  - paragraphs_features
   - pathauto
   - pathologic
   - r4032login
   - redirect_404
+  - responsive_favicons
   - schema_image_object
   - schema_item_list
   - schema_web_page
   - schema_web_site
+  - seckit
   - simple_sitemap
   - svg_image
   - swiftmailer_force_html
   - system_tags
   - taxonomy_access_fix
+  - view_unpublished
   - webform_submission_log
   - webform_ui
 

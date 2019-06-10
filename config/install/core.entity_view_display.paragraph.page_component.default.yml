@@ -3,10 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.page_component.field_p_component
-    - field.field.paragraph.page_component.field_p_width
     - paragraphs.paragraphs_type.page_component
-  module:
-    - entity_class_formatter
 id: paragraph.page_component.default
 targetEntityType: paragraph
 bundle: page_component
@@ -20,12 +17,5 @@ content:
       view_mode: default
     third_party_settings: {  }
     type: entity_reference_entity_view
-    region: content
-  field_p_width:
-    weight: 1
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: entity_class_formatter
     region: content
 hidden: {  }

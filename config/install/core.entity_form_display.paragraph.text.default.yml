@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.text.field_p_text_body
-    - field.field.paragraph.text.field_p_width
     - paragraphs.paragraphs_type.text
   module:
     - text
@@ -19,12 +18,6 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textarea
-    region: content
-  field_p_width:
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
   translation:
     weight: 2

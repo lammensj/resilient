@@ -3,11 +3,9 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.content_list.field_p_cl_list
-    - field.field.paragraph.content_list.field_p_width
     - paragraphs.paragraphs_type.content_list
   module:
     - block_field
-    - entity_class_formatter
 id: paragraph.content_list.default
 targetEntityType: paragraph
 bundle: content_list
@@ -19,12 +17,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: block_field
-    region: content
-  field_p_width:
-    weight: 1
-    label: hidden
-    settings: {  }
-    third_party_settings: {  }
-    type: entity_class_formatter
     region: content
 hidden: {  }

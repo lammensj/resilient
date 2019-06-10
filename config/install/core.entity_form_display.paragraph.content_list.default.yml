@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.content_list.field_p_cl_list
-    - field.field.paragraph.content_list.field_p_width
     - paragraphs.paragraphs_type.content_list
   module:
     - block_field
@@ -20,12 +19,6 @@ content:
       settings: {  }
     third_party_settings: {  }
     type: block_field_default
-    region: content
-  field_p_width:
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
 hidden:
   created: true

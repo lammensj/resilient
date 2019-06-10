@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - image_effects
+name: twitter_card
+label: 'Twitter card (600x335)'
+effects:
+  d093fbba-ba31-4ebf-b350-672c49f0846c:
+    uuid: d093fbba-ba31-4ebf-b350-672c49f0846c
+    id: image_scale
+    weight: 1
+    data:
+      width: 600
+      height: 335
+      upscale: false
+  ec5ea944-b5d6-4847-8497-b402f35e6c53:
+    uuid: ec5ea944-b5d6-4847-8497-b402f35e6c53
+    id: image_effects_set_canvas
+    weight: 2
+    data:
+      canvas_size: exact
+      exact:
+        width: '600'
+        height: '335'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''
+pipeline: image_optimize

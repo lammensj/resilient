@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.page_component.field_p_component
-    - field.field.paragraph.page_component.field_p_width
     - paragraphs.paragraphs_type.page_component
   module:
     - inline_entity_form
@@ -27,12 +26,6 @@ content:
       allow_duplicate: false
     third_party_settings: {  }
     type: inline_entity_form_complex
-    region: content
-  field_p_width:
-    weight: 1
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
   translation:
     weight: 2

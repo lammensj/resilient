@@ -41,3 +41,4 @@ ignore_words: ', in, is,that, the  , this, with, '
 case: true
 update_action: 2
 enabled_entity_types: {  }
+langcode: en

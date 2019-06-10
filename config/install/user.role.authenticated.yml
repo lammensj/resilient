@@ -8,6 +8,8 @@ is_admin: false
 permissions:
   - 'access content'
   - 'access shortcuts'
+  - 'display eu cookie compliance popup'
   - 'search content'
   - 'use text format basic_html'
   - 'view any content_component entities'
+  - 'view media'

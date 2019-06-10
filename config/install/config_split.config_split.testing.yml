@@ -1,0 +1,19 @@
+langcode: en
+status: false
+dependencies: {  }
+id: testing
+label: Testing
+description: ''
+folder: ../config/testing
+module:
+  stage_file_proxy: 0
+  big_pipe: 0
+  big_pipe_sessionless: 0
+  dynamic_page_cache: 0
+  page_cache: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

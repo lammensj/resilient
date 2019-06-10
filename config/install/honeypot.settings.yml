@@ -15,3 +15,4 @@ form_settings:
   contact_message_contact_form: true
   contact_message_personal_form: false
   node_page_form: false
+langcode: en

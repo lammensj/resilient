@@ -1,0 +1,27 @@
+langcode: en
+report-only:
+  enable: false
+enforce:
+  enable: true
+  directives:
+    script-src:
+      sources:
+        - 'https://www.googletagmanager.com'
+        - 'https://connect.facebook.net'
+        - 'data:'
+        - 'https://static.hotjar.com'
+        - 'https://www.google-analytics.com'
+        - 'https://script.hotjar.com'
+        - 'https://cdn.rawgit.com'
+      flags:
+        - unsafe-inline
+        - unsafe-eval
+      base: self
+    style-src:
+      sources:
+        - 'https://fonts.googleapis.com'
+      flags:
+        - unsafe-inline
+      base: self
+  reporting:
+    plugin: sitelog

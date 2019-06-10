@@ -1,12 +1,7 @@
 langcode: en
 status: true
-dependencies:
-  module:
-    - paragraphs_browser
-third_party_settings:
-  paragraphs_browser:
-    image_path: profiles/contrib/resilient/assets/icons/outline-image-24px.svg
-    description: 'An image is an image... Nothing more to say about that.'
+dependencies: {  }
+third_party_settings: {  }
 id: image
 label: Image
 icon_uuid: null
