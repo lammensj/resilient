@@ -30,6 +30,7 @@
         "drupal/easy_email": "^1.0@beta",
         "drupal/eck": "^1.0@alpha",
         "drupal/email_registration": "^1.0@RC",
+        "drupal/entity_class_formatter": "^1.1",
         "drupal/environment_indicator": "^3.6",
         "drupal/eu_cookie_compliance": "^1.5",
         "drupal/field_group": "^3.0@beta",
