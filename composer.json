@@ -35,7 +35,6 @@
         "drupal/field_group": "^3.0@beta",
         "drupal/gdpr": "^2.0@alpha",
         "drupal/google_tag": "^1.1",
-        "drupal/hide_revision_field": "^2.1",
         "drupal/honeypot": "^1.29",
         "drupal/image_effects": "^2.3",
         "drupal/imageapi_optimize": "^2.0@alpha",

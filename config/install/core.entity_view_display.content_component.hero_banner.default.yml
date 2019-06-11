@@ -9,7 +9,6 @@ dependencies:
     - field.field.content_component.hero_banner.field_cc_heading
   module:
     - link
-    - svg_image
     - text
 id: content_component.hero_banner.default
 targetEntityType: content_component
@@ -17,14 +16,14 @@ bundle: hero_banner
 mode: default
 content:
   field_cc_body:
-    weight: 4
+    weight: 2
     label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_cc_hb_cta:
-    weight: 3
+    weight: 1
     label: hidden
     settings:
       trim_length: 80
@@ -36,17 +35,13 @@ content:
     type: link
     region: content
   field_cc_hb_image:
-    weight: 1
+    type: entity_reference_entity_view
+    weight: 3
     label: hidden
     settings:
-      image_style: ''
-      image_link: ''
-      svg_attributes:
-        width: ''
-        height: ''
-      svg_render_as_image: true
+      view_mode: default
+      link: false
     third_party_settings: {  }
-    type: image
     region: content
   field_cc_heading:
     weight: 0

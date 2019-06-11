@@ -37,12 +37,12 @@ dependencies:
   - easy_email
   - eck
   - email_registration
+  - entity_class_formatter
   - environment_indicator
   - eu_cookie_compliance
   - field_group
   - gdpr
   - google_tag
-  - hide_revision_field
   - honeypot
   - image_effects
   - imageapi_optimize_resmushit
@@ -51,6 +51,7 @@ dependencies:
   - linkit
   - login_destination
   - media_entity_browser
+  - media_library
   - menu_admin_per_menu
   - menu_block
   - menu_link_attributes

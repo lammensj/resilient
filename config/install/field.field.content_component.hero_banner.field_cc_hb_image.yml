@@ -4,15 +4,7 @@ dependencies:
   config:
     - eck.eck_type.content_component.hero_banner
     - field.storage.content_component.field_cc_hb_image
-  module:
-    - content_translation
-    - image
-third_party_settings:
-  content_translation:
-    translation_sync:
-      alt: alt
-      title: title
-      file: '0'
+    - media.type.image
 id: content_component.hero_banner.field_cc_hb_image
 field_name: field_cc_hb_image
 entity_type: content_component
@@ -20,25 +12,17 @@ bundle: hero_banner
 label: Image
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
-  file_directory: images/content-components/hero-banners
-  file_extensions: 'png gif jpg jpeg'
-  max_filesize: ''
-  max_resolution: ''
-  min_resolution: ''
-  alt_field: true
-  alt_field_required: true
-  title_field: true
-  title_field_required: false
-  default_image:
-    uuid: ''
-    alt: ''
-    title: ''
-    width: null
-    height: null
-  handler: 'default:file'
-  handler_settings: {  }
-field_type: image
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: name
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

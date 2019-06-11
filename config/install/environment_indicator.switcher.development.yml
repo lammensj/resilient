@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-machine: development
-description: null
-name: Development
-url: ''
-fg_color: '#eeeeee'
-bg_color: '#38ada9'

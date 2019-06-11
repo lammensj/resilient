@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-machine: production
-description: null
-name: Production
-url: ''
-fg_color: '#eeeeee'
-bg_color: '#e55039'

@@ -7,12 +7,10 @@ dependencies:
     - field.field.content_component.hero_banner.field_cc_hb_cta
     - field.field.content_component.hero_banner.field_cc_hb_image
     - field.field.content_component.hero_banner.field_cc_heading
-    - image.style.thumbnail
   module:
     - field_group
-    - imce
     - link
-    - svg_image
+    - media_library
     - text
 third_party_settings:
   field_group:
@@ -50,8 +48,8 @@ third_party_settings:
       children:
         - field_cc_heading
         - field_cc_body
-        - field_cc_hb_image
         - field_cc_hb_cta
+        - field_cc_hb_image
       parent_name: group_tabs
       weight: 10
       format_type: tab
@@ -83,7 +81,7 @@ content:
     type: text_textarea
     region: content
   field_cc_hb_cta:
-    weight: 15
+    weight: 14
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -91,14 +89,11 @@ content:
     type: link_default
     region: content
   field_cc_hb_image:
-    weight: 14
+    type: media_library_widget
+    weight: 15
     settings:
-      preview_image_style: thumbnail
-      progress_indicator: throbber
-    third_party_settings:
-      imce:
-        enabled: true
-    type: image_image
+      media_types: {  }
+    third_party_settings: {  }
     region: content
   field_cc_heading:
     weight: 12

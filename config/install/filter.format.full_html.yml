@@ -6,7 +6,7 @@ dependencies:
     - pathologic
 name: 'Full HTML'
 format: full_html
-weight: 0
+weight: -9
 filters:
   filter_align:
     id: filter_align

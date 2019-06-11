@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-third_party_settings: {  }
-id: image
-label: Image
-icon_uuid: null
-description: 'An image is an image... Nothing more to say about that.'
-behavior_plugins: {  }

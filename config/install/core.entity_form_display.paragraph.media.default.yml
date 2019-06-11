@@ -28,7 +28,7 @@ content:
       allow_duplicate: false
     third_party_settings:
       entity_browser_entity_form:
-        entity_browser_id: media
+        entity_browser_id: media_entity_browser_modal
     region: content
 hidden:
   created: true
