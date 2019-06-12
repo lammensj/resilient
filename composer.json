@@ -72,7 +72,6 @@
         "drupal/webform": "^5.1"
     },
     "require-dev": {
-        "drupal/devel": "^1.2",
         "roave/security-advisories": "dev-master",
         "webflo/drupal-core-require-dev": "^8.6.0"
     },
