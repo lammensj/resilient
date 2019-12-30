@@ -30,10 +30,11 @@ dependencies:
   - bootstrap_library
   - cache_control_override
   - clean_maintenance
-  - config_readonly
+  - config_readonly_menu_ui
   - config_split
   - config_update_ui
   - csp
+  - easy_breadcrumb
   - easy_email
   - eck
   - email_registration
@@ -41,10 +42,12 @@ dependencies:
   - environment_indicator
   - eu_cookie_compliance
   - field_group
+  - fixed_text_link_formatter
   - gdpr
   - google_tag
   - honeypot
   - image_effects
+  - image_widget_crop
   - imageapi_optimize_resmushit
   - imce
   - inline_entity_form
@@ -61,6 +64,7 @@ dependencies:
   - metatag_twitter_cards
   - override_node_options
   - paragraphs_admin
+  - paragraphs_clean
   - paragraphs_ee
   - paragraphs_features
   - pathauto
