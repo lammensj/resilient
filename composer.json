@@ -53,7 +53,7 @@
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/link_css": "1.x-dev",
         "drupal/linkit": "^5.0@beta",
-        "drupal/login_destination": "^1.0@alpha",
+        "drupal/login_destination": "^2.0@beta",
         "drupal/media_entity_browser": "^2.0@alpha",
         "drupal/menu_admin_per_menu": "^1.0",
         "drupal/menu_block": "^1.5",
