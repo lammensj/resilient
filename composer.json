@@ -70,7 +70,7 @@
         "drupal/r4032login": "^2.0",
         "drupal/redirect": "^1.5",
         "drupal/responsive_favicons": "^1.5",
-        "drupal/seckit": "^1.2",
+        "drupal/seckit": "^2.0",
         "drupal/schema_metatag": "^1.4",
         "drupal/simple_sitemap": "^3.5",
         "drupal/stage_file_proxy": "^1.0@RC",
