@@ -67,7 +67,7 @@
         "drupal/paragraphs_features": "^1.7",
         "drupal/pathauto": "^1.6",
         "drupal/pathologic": "^1.0@alpha",
-        "drupal/r4032login": "^1.1",
+        "drupal/r4032login": "^2.0",
         "drupal/redirect": "^1.5",
         "drupal/responsive_favicons": "^1.5",
         "drupal/seckit": "^1.2",
