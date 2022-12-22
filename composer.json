@@ -79,7 +79,7 @@
         "drupal/system_tags": "^1.6",
         "drupal/taxonomy_access_fix": "^3.3",
         "drupal/view_unpublished": "^1.0@alpha",
-        "drupal/webform": "^5.6"
+        "drupal/webform": "^6.1"
     },
     "require-dev": {
         "drupal/core-dev": "^8.8",
