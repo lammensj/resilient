@@ -38,7 +38,7 @@
         "drupal/eck": "^1.0@alpha",
         "drupal/email_registration": "^1.0@RC",
         "drupal/entity_class_formatter": "^1.2",
-        "drupal/environment_indicator": "^3.7",
+        "drupal/environment_indicator": "^4.0",
         "drupal/eu_cookie_compliance": "^1.8",
         "drupal/field_group": "^3.0@RC",
         "drupal/fixed_text_link_formatter": "^1.5",
