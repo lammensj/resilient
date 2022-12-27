@@ -2,6 +2,7 @@ name: Resilient
 description: 'A Drupal install profile, based on personal experiences.'
 type: profile
 core: 8.x
+core_version_requirement: ^8 || ^9
 distribution:
   name: Resilient
 

@@ -29,8 +29,6 @@
         "drupal/config_readonly_menu_ui": "^1.0",
         "drupal/config_split": "^1.4",
         "drupal/config_update": "^1.6",
-        "drupal/console": "^1.9",
-        "drupal/core": "^8.8",
         "drupal/crop": "^2.0",
         "drupal/csp": "^1.8",
         "drupal/easy_breadcrumb": "^1.12",
