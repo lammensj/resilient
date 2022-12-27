@@ -77,7 +77,6 @@
         "drupal/webform": "^6.1"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8",
         "roave/security-advisories": "dev-master"
     },
     "conflict": {
