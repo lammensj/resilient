@@ -23,8 +23,6 @@ dependencies:
   - views_ui
   # contrib
   - allowed_formats
-  - admin_toolbar_links_access_filter
-  - admin_toolbar_tools
   - block_field
   - bootstrap_library
   - cache_control_override
