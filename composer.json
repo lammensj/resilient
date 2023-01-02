@@ -14,7 +14,7 @@
         "cweagans/composer-patches": "^1.6",
         "drupal/advancedqueue": "^1.0@beta",
         "drupal/allowed_formats": "^1.2",
-        "drupal/admin_toolbar": "^2.0",
+        "drupal/admin_toolbar": "^3.3",
         "drupal/adminimal_admin_toolbar": "^1.10",
         "drupal/adminimal_theme": "^1.5",
         "drupal/antibot": "^1.2",
