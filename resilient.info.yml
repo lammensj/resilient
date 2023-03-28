@@ -32,7 +32,6 @@ dependencies:
   - config_update_ui
   - csp
   - easy_breadcrumb
-  - easy_email
   - eck
   - email_registration
   - entity_class_formatter
@@ -76,7 +75,6 @@ dependencies:
   - seckit
   - simple_sitemap
   - svg_image
-  - swiftmailer_force_html
   - system_tags
   - taxonomy_access_fix
   - view_unpublished
