@@ -46,7 +46,7 @@
         "drupal/image_widget_crop": "^2.2",
         "drupal/imageapi_optimize": "^4.0@beta",
         "drupal/imageapi_optimize_resmushit": "^2.0@beta",
-        "drupal/imce": "^1.7",
+        "drupal/imce": "^3.0",
         "drupal/inline_entity_form": "^1.0@RC",
         "drupal/linkit": "^5.0@beta",
         "drupal/login_destination": "^2.0@beta",
